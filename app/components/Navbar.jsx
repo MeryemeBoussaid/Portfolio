@@ -37,7 +37,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
           />
         </a>
 
-        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark: border dark:border-white/50 dark:bg-transparent"} `}>
+        <ul className={`hidden md:flex items-center gap-4 sm:gap-6 lg:gap-8 px-6 py-2 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark: border dark:border-white/50 dark:bg-transparent"} `}>
           <li><a className='fony-Ovo' href="#home">Home</a></li>
           <li><a className='fony-Ovo' href="#about">About me </a></li>
           <li><a className='fony-Ovo' href="#services">Services </a></li>
